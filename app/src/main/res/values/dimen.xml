@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button">18dp</dimen>
+    <dimen name="padding_layout">7dp</dimen>
+    <dimen name="padding_layout_long">14dp</dimen>
+    <dimen name="padding_layout_long_long">28dp</dimen>
+    <dimen name="padding_layout_long_long_long">40dp</dimen>
+    <dimen name="header">37dp</dimen>
+    <dimen name="verify_small">14dp</dimen>
+</resources>

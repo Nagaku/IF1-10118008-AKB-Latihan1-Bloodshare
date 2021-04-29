@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">bloodshare_10118008</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="c_facebook">CONNECT WITH FACEBOOK</string>
+    <string name="register_pref">Doesn't have an account ?</string>
+    <string name="register">Register</string>
+    <string name="verify">Verify your account</string>
+    <string name="verify_tg">We have sent verification code to your email</string>
+    <string name="verify_code_hint">enter verification code here</string>
+    <string name="verify_code_send">Send</string>
+    <string name="almost_there_header">Almost There</string>
+    <string name="almost_there_tl">Thank you for registering with us. One more step, you need to check your email to activate your account</string>
+    <string name="almost_there_verify">Verify</string>
+</resources>

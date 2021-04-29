@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bluebg"
+    android:orientation="horizontal">
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="30dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/blood_share_logo"
+            android:layout_gravity="center"
+            android:tint="@color/white"
+            android:layout_marginBottom="@dimen/padding_layout_long"></androidx.appcompat.widget.AppCompatImageView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/username"
+            android:textSize="@dimen/button"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginVertical="@dimen/padding_layout"
+            android:background="@drawable/edit_text_login_style"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/password"
+            android:textSize="@dimen/button"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="@dimen/padding_layout_long"
+            android:background="@drawable/edit_text_login_style"></EditText>
+        <android.widget.Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginVertical="@dimen/padding_layout"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button">
+
+
+
+        </android.widget.Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingVertical="@dimen/padding_layout"
+            android:textSize="@dimen/button"
+            />
+        <android.widget.Button
+            android:id="@+id/button_login_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginVertical="@dimen/padding_layout"
+            android:text="@string/c_facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button"
+            android:drawableLeft="@drawable/login_facebook_style"
+            android:padding="0dp"
+            android:textAlignment="textStart">
+
+
+
+        </android.widget.Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/padding_layout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_pref"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+                android:text="@string/register"
+                android:textStyle="bold"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
