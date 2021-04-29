@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/header_style">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/burger_style"
+                android:layout_margin="20dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notif_style"
+                android:layout_margin="20dp"
+                android:layout_alignParentRight="true">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/profile_grey_style"
+                android:layout_above="@+id/nama"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/profileeee"
+                    android:tint="@color/profile_1">
+
+
+                </androidx.appcompat.widget.AppCompatImageView>
+            </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/nama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_nama"
+                            android:textColor="@color/lb"
+                            android:layout_above="@+id/type"
+                            android:layout_centerInParent="true"
+                            android:textSize="@dimen/form_nama"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_blood_type"
+                            android:textSize="@dimen/verify_small"
+                            android:textColor="@color/fd"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="15dp"
+                            android:textStyle="bold">
+                        </TextView>
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/separator_style">
+
+        <TextView
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:text="@string/form_give"
+            android:textColor="@color/lb"
+            android:textAlignment="center"
+            android:layout_above="@+id/t_l"
+            android:textSize="@dimen/kotak_title"
+            android:layout_toLeftOf="@id/n_t"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/t_l"
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/form_give_txt"
+            android:textColor="@color/fd"
+            android:textSize="@dimen/small_small"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/t_t"
+            android:layout_marginBottom="@dimen/button">
+        </TextView>
+
+        <TextView
+            android:id="@+id/n_t"
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:text="@string/form_recieve"
+            android:textSize="@dimen/kotak_title"
+            android:textAlignment="center"
+            android:textColor="@color/lb"
+            android:layout_above="@+id/t_t"
+            android:layout_centerInParent="true"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/t_t"
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/form_recieve_txt"
+            android:textColor="@color/fd"
+            android:textSize="@dimen/small_small"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/button">
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:text="@string/form_thanks"
+            android:textSize="@dimen/kotak_title"
+            android:textColor="@color/lb"
+            android:layout_above="@+id/t_r"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/n_t"
+            android:textAlignment="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/t_r"
+            android:layout_width="@dimen/kotak"
+            android:layout_height="wrap_content"
+            android:text="@string/form_thanks_txt"
+            android:textAlignment="center"
+            android:textColor="@color/fd"
+            android:textSize="@dimen/small_small"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/button"
+            android:layout_toRightOf="@id/t_t">
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/separator_style">
+
+        <LinearLayout
+            android:id="@+id/bulat1"
+            android:layout_width="@dimen/bulat_width"
+            android:layout_height="@dimen/bulat_heigt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="@dimen/bulat_hori"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/bulat_vert">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_search_donor"
+                >
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search Donor"
+                android:textColor="@color/ft"
+                android:layout_above="@+id/type"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/form_nama"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search donor near you"
+                android:textSize="@dimen/verify_small"
+                android:textColor="@color/fd"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bulat2"
+            android:layout_width="@dimen/bulat_width"
+            android:layout_height="@dimen/bulat_heigt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="@dimen/bulat_hori"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/bulat_vert">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_blood_needed">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Needed"
+                android:textColor="@color/ft"
+                android:layout_above="@+id/type"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/form_nama"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_need"
+                android:textSize="@dimen/verify_small"
+                android:textColor="@color/fd"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bulat3"
+            android:layout_width="@dimen/bulat_width"
+            android:layout_height="@dimen/bulat_heigt"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="@dimen/bulat_hori"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/bulat_vert"
+            android:layout_below="@id/bulat1">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_message"
+                android:layout_marginTop="5dp">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textColor="@color/ft"
+                android:layout_above="@+id/type"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/form_nama"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_message"
+                android:textSize="@dimen/verify_small"
+                android:textColor="@color/fd"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/bulat_width"
+            android:layout_height="@dimen/bulat_heigt"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="@dimen/bulat_hori"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/bulat_vert"
+            android:layout_below="@id/bulat2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_donor_history"
+                android:layout_marginTop="5dp">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donor History"
+                android:textColor="@color/ft"
+                android:layout_above="@+id/type"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/form_nama"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_donor"
+                android:textSize="@dimen/verify_small"
+                android:textColor="@color/fd"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

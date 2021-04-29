@@ -58,7 +58,8 @@
             android:text="@string/almost_there_verify"
             android:textColor="@color/white"
             android:textSize="@dimen/button"
-            android:textAlignment="center">
+            android:textAlignment="center"
+            android:onClick="ketiga">
 
 
 

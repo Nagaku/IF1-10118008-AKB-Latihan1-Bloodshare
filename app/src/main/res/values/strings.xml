@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
     <string name="c_facebook">CONNECT WITH FACEBOOK</string>
-    <string name="register_pref">Doesn't have an account ?</string>
+    <string name="register_pref">Doesn\'t have an account ?</string>
     <string name="register">Register</string>
     <string name="verify">Verify your account</string>
     <string name="verify_tg">We have sent verification code to your email</string>
@@ -13,4 +13,18 @@
     <string name="almost_there_header">Almost There</string>
     <string name="almost_there_tl">Thank you for registering with us. One more step, you need to check your email to activate your account</string>
     <string name="almost_there_verify">Verify</string>
+    
+    <string name="form_nama">Michael Nagaku M S</string>
+    <string name="form_blood_type">Blood Type : B</string>
+    <string name="form_give">75</string>
+    <string name="form_recieve">100</string>
+    <string name="form_thanks">330</string>
+
+    <string name="form_give_txt">BLOOD GIVE</string>
+    <string name="form_recieve_txt">BLOOD RECEIVE</string>
+    <string name="form_thanks_txt">THANKS</string>
+
+    <string name="form_need">4 User need blood</string>
+    <string name="form_message">5 New Messages</string>
+    <string name="form_donor">5 Gives, 2 Received</string>
 </resources>

@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="button">18dp</dimen>
-    <dimen name="padding_layout">7dp</dimen>
+    <dimen name="padding_layout">5dp</dimen>
     <dimen name="padding_layout_long">14dp</dimen>
     <dimen name="padding_layout_long_long">28dp</dimen>
     <dimen name="padding_layout_long_long_long">40dp</dimen>
     <dimen name="header">37dp</dimen>
     <dimen name="verify_small">14dp</dimen>
+    <dimen name="small_small">12dp</dimen>
+    <dimen name="kotak">130dp</dimen>
+    <dimen name="form_nama">20dp</dimen>
+    <dimen name="kotak_title">28dp</dimen>
+
+    <dimen name="bulat_heigt">160dp</dimen>
+    <dimen name="bulat_width">170dp</dimen>
+    <dimen name="bulat_vert">18dp</dimen>
+    <dimen name="bulat_hori">24dp</dimen>
+
+    <dimen name="form_height">35dp</dimen>
 </resources>

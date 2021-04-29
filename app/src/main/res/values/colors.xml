@@ -9,12 +9,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bluebg">#40b4e7</color>
     <color name="bluregis">#70c3e9</color>
+    <color name="profile_1">#a3a3a3</color>
 
     <color name="lb">#43b3e6</color>
-    <color name="sh">#d1d2d4</color>
+    <color name="sh">#b8b8ba</color>
     <color name="s">#939597</color>
-    <color name="Ft">#404041</color>
+    <color name="ft">#404041</color>
     <color name="fd">#808284</color>
-    <color name="Bd">#ffffff</color>
-    <color name="Bi">#f1f1f2</color>
+    <color name="bd">#ffffff</color>
+    <color name="bi">#f1f1f2</color>
 </resources>
