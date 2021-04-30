@@ -1,5 +1,13 @@
 package com.example.bloodshare_10118008;
 
+
+/*
+    Tanggal : Jumat, 30/4/2021
+    NIM     : 10118008
+    Nama    : Michael Nagaku Milenn Salim
+    Kelas   : IF-1
+*/
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
